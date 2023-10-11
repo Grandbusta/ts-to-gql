@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {    
+    "rootDirs": ["src"],                        
+    "outDir": "./dist",                                                                    /* Enable all strict type-checking options. */
+    "lib": ["es2020"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports":true,
+    "types": ["node"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

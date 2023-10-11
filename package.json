@@ -1,0 +1,22 @@
+{
+  "name": "ts-to-gql",
+  "version": "1.0.0",
+  "description": "Converts Typescript interface to GraphQl schema",
+  "main": "./dist/usage/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile":"npx tsc",
+    "start": "npm run compile && node dist/usage/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.4",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "typescript": "^5.2.2"
+  }
+}
